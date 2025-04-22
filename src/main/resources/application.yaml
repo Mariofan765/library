@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: tz
+  flyway:
+    enabled: true
+    baseline-on-migrate: true
+    baseline-version: 0
+    user: postgres
+    password: r0Gbc1lmO
+  datasource:
+    url: jdbc:postgresql://localhost:5432/library
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: r0Gbc1lmO
